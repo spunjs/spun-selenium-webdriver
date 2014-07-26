@@ -30,8 +30,8 @@ THE SOFTWARE.
 [npm-url]: https://npmjs.org/package/spun-selenium-webdriver
 [npm-image]: http://img.shields.io/npm/v/spun-selenium-webdriver.svg
 
-[travis-url]: https://travis-ci.org/jsdevel/spun-selenium-webdriver
-[travis-image]: http://img.shields.io/travis/jsdevel/spun-selenium-webdriver.svg
+[travis-url]: https://travis-ci.org/spunjs/spun-selenium-webdriver
+[travis-image]: http://img.shields.io/travis/spunjs/spun-selenium-webdriver.svg
 
-[coveralls-url]: https://coveralls.io/r/jsdevel/spun-selenium-webdriver
-[coveralls-image]: http://img.shields.io/coveralls/jsdevel/spun-selenium-webdriver/master.svg
+[coveralls-url]: https://coveralls.io/r/spunjs/spun-selenium-webdriver
+[coveralls-image]: http://img.shields.io/coveralls/spunjs/spun-selenium-webdriver/master.svg
