@@ -4,8 +4,11 @@ module.exports = Provider;
 
 var composites = require('composites');
 var f = require('util').format;
+var path = require('path');
+var dirname = path.dirname;
 var Program = composites.Program;
 var CompositeString = composites.CompositeString;
+var chromedriverPath = dirname(require('selenium-binaries').chromedriver);
 
 function Provider(argv){
   argv = argv || {};
@@ -27,6 +30,8 @@ function Provider(argv){
     .push(' phantom: "phantomjs",')
     .push(' safari:  "safari"')
     .push('};')
+    .push('var path = require("path");')
+    .push(f('process.env.PATH="%s" + path.delimiter + process.env.PATH;', chromedriverPath))
     .push('var wd = require("selenium-webdriver");')
     .push('var By = wd.By;')
     .push('var f  = require("util").format;')

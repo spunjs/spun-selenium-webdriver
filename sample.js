@@ -10,6 +10,8 @@ var driverMap = {
  phantom: "phantomjs",
  safari:  "safari"
 };
+var path = require("path");
+process.env.PATH="/home/joseph/.selenium-binaries/chromedriver/2.10" + path.delimiter + process.env.PATH;
 var wd = require("selenium-webdriver");
 var By = wd.By;
 var f  = require("util").format;
