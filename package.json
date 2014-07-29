@@ -29,7 +29,7 @@
   },
   "dependencies": {
     "composites": "^1.1.1",
-    "selenium-binaries": "^0.1.2",
+    "selenium-binaries": "^0.1.4",
     "selenium-webdriver": "^2.42.1"
   }
 }
