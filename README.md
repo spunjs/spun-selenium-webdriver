@@ -1,6 +1,8 @@
 # spun-selenium-webdriver [![NPM version][npm-image]][npm-url] [![Downloads][downloads-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Coveralls Status][coveralls-image]][coveralls-url]
 > A spun provider for selenium-webdriver
 
+See [spun](https://www.npmjs.org/package/spun) for more details.
+
 ##LICENSE
 ``````
 The MIT License (MIT)
