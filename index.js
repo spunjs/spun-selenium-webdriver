@@ -130,8 +130,8 @@ function Provider(argv){
   }
 
   function addExceptionHandler(line){
-    var verboseLogger = 'null';
-    if(argv.verbose) verboseLogger = f('function(){console.log(%s);}', JSON.stringify(line));
+    var verboseLogger = '';
+    if(argv.verbose) verboseLogger = f('console.log(%s);', JSON.stringify(line));
     if(lastLine)lastLine.push(getLineAssignment(line));
     lastLine = new CompositeString();
     currentScope
