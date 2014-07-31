@@ -1,7 +1,7 @@
 {
   "name": "spun-selenium-webdriver",
   "main": "lib/spun-selenium-webdriver.js",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "A spun provider for selenium-webdriver",
   "author": "spunjs",
   "scripts": {
